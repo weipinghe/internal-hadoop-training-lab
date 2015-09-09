@@ -1,0 +1,30 @@
+View and use the hdfs dfs command. (hadoop fs changed to hdfs dfs)
+# hdfs dfs
+
+# hdfs dfs -ls /
+
+# hdfs dfs -mkdir /user/root
+
+# su - hdfs 
+
+$ hdfs dfs -mkdir /user/root
+
+# hdfs dfs -put sample.txt test/
+
+
+The –D option is a generic option that allows you to specify a value for a given property. For example, we can choose the block size of a file we add to HDFS using the –put option by adding –D and specifying the value of dfs.blocksize. Use this technique to put a copy of the /tmp/merged.txt file to the /user/root directory of HDFS, using a block size of 1,048,576 bytes:
+# hdfs dfs -D dfs.blocksize=1048576 -put /tmp/merged.txt merged.txt
+
+Run the hdfs fsck command on this file to determine the number of blocks it was broken into during the put command: 
+
+# hdfs fsck /user/root/merged.txt
+
+
+Run the same hdfs fsck command again, but this time add the –blocks option:
+ # hdfs fsck /user/root/test_data -files -blocks
+ Note that this addition provides us with the actual block names at the top of the output.
+
+
+Run the previous command again, and now add a third option, -locations:
+ # hdfs fsck /user/root/test_data -files -blocks -locations
+
