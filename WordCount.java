@@ -1,5 +1,5 @@
-WordCount is the “Hello, World!” of Hadoop
-We will go over the source code here.
+// WordCount is the "Hello, World!" of Hadoop
+// We will go over the source code here.
 import java.io.IOException;
 import java.util.StringTokenizer;
 
