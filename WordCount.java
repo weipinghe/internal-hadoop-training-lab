@@ -68,3 +68,4 @@ public static class IntSumReducer extends Reducer<Text,IntWritable,Text,IntWrita
     // run the job.
     System.exit(job.waitForCompletion(true) ? 0 : 1);
   }
+}
