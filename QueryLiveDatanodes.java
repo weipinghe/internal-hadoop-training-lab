@@ -21,7 +21,18 @@ import org.apache.hadoop.hdfs.protocol.HdfsConstants.DatanodeReportType;
 
 // hadoop jar QueryLiveDatanodes.jar QueryLiveDatanodes
 
-
+// Note: Superuser privilege is required!
+// 
+// Hotonworks
+//  /usr/jdk64/jdk1.7.0_67/bin/javac -classpath "/usr/hdp/current/hadoop-client/*:/usr/hdp/current/hadoop-hdfs-client/*:/usr/hdp/current/hadoop-hdfs-namenode/*:/usr/hdp/current/hadoop-hdfs-datanode/*"  QueryLiveDatanodes.java
+//
+//  /usr/jdk64/jdk1.7.0_67/bin/jar -cvf QueryLiveDatanodes.jar QueryLiveDatanodes.class
+//  mv QueryLiveDatanodes.jar /tmp
+//  cd /tmp
+//
+//  export CLASSPATH="/usr/hdp/current/hadoop-client/*:/usr/hdp/current/hadoop-hdfs-client/*:/usr/hdp/current/hadoop-hdfs-namenode/*:/usr/hdp/current/hadoop-hdfs-datanode/*:."
+//
+//  hadoop jar QueryLiveDatanodes.jar QueryLiveDatanodes
 public class QueryLiveDatanodes {
 
    public static void main(String[] args) throws Exception {
