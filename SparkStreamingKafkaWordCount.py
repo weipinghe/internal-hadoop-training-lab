@@ -34,7 +34,10 @@ if __name__ == "__main__":
 
 
 # In another window, start a Kafka producer that publishes to wordcounttopic:
-# $ /usr/hdp/current/kafka-broker/bin/kafka-console-producer.sh --broker-list localhost:6667 --topic wordcounttopic
+# $ /usr/hdp/current/kafka-broker/bin/kafka-console-producer.sh --broker-list realhostname:6667 --topic wordcounttopic
+
+# To verify this console producer
+# /usr/hdp/current/kafka-broker/bin/kafka-simple-consumer-shell.sh --broker-list realhostname:6667 --topic wordcounttopic --partition 0
 
 # spark-submit --jars /usr/hdp/2.5.0.0-1133/spark/lib/spark-streaming-kafka-assembly_2.10-1.6.0.jar \
 # SparkStreamingKafkaWordCount.py \
