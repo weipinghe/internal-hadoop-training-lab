@@ -11,13 +11,13 @@ from pyspark import SparkContext
 from pyspark.streaming import StreamingContext
 from pyspark.streaming.kafka import KafkaUtils
 
-sc.setLogLevel("WARN")
 if __name__ == "__main__":
     if len(sys.argv) != 3:
         print("Usage: kafka_wordcount.py <zk> <topic>", file=sys.stderr)
         exit(-1)
 
     sc = SparkContext(appName="PythonStreamingKafkaWordCount")
+    sc.setLogLevel("WARN")
     ssc = StreamingContext(sc, 1)
 
     zkQuorum, topic = sys.argv[1:]
