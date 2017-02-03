@@ -1,0 +1,32 @@
+// note: temp solution.
+// Casbah MongoClient should be better http://mongodb.github.io/casbah/3.1/reference/connecting/
+
+// converts XML to JSON
+import net.liftweb.json.Xml 
+// Write to Mongo
+import com.mongodb.casbah.Imports._ 
+// To connect to Mongo
+import com.mongodb.casbah.MongoDB 
+// To parse JSON into a MongoDBObject
+import com.mongodb.util.JSON 
+// To output Lift JSON as actual JSON
+import net.liftweb.json._
+// To load XML
+import scala.xml.XML 
+
+object XML2Mongo {
+  def main(args: Array[String]) {
+  println("\nStart running...")    
+  // load the XML
+	val xml = XML.load("http://www.w3schools.com/xml/note.xml")
+	// fire up mongo connection
+	val con = MongoConnection("myhost")
+	val col = con("test")("xmlTest")
+	// convert the XML into a BasicDBObject
+	val bdo:BasicDBObject = JSON.parse(pretty(render(Xml.toJson(xml)))).asInstanceOf[BasicDBObject]
+	// and insert it
+	col.insert(bdo)
+	// check that it's there:
+	col.find.foreach(println)
+	}
+}  
