@@ -1,0 +1,296 @@
+[
+ {
+   "gender": "M",
+   "age": 40,
+   "salary": 76000,
+   "zip": 95102
+ },
+ {
+   "gender": "F",
+   "age": 58,
+   "salary": 95000,
+   "zip": 95103
+ },
+ {
+   "gender": "F",
+   "age": 68,
+   "salary": 60000,
+   "zip": 95105
+ },
+ {
+   "gender": "M",
+   "age": 85,
+   "salary": 14000,
+   "zip": 95102
+ },
+ {
+   "gender": "M",
+   "age": 14,
+   "salary": 0,
+   "zip": 95105
+ },
+ {
+   "gender": "M",
+   "age": 52,
+   "salary": 2000,
+   "zip": 94040
+ },
+ {
+   "gender": "M",
+   "age": 67,
+   "salary": 99000,
+   "zip": 94040
+ },
+ {
+   "gender": "F",
+   "age": 43,
+   "salary": 11000,
+   "zip": 94041
+ },
+ {
+   "gender": "F",
+   "age": 37,
+   "salary": 65000,
+   "zip": 94040
+ },
+ {
+   "gender": "M",
+   "age": 72,
+   "salary": 83000,
+   "zip": 94041
+ },
+ {
+   "gender": "M",
+   "age": 68,
+   "salary": 15000,
+   "zip": 95103
+ },
+ {
+   "gender": "F",
+   "age": 74,
+   "salary": 37000,
+   "zip": 95105
+ },
+ {
+   "gender": "F",
+   "age": 15,
+   "salary": 0,
+   "zip": 95050
+ },
+ {
+   "gender": "F",
+   "age": 83,
+   "salary": 0,
+   "zip": 94040
+ },
+ {
+   "gender": "F",
+   "age": 30,
+   "salary": 10000,
+   "zip": 95101
+ },
+ {
+   "gender": "M",
+   "age": 19,
+   "salary": 0,
+   "zip": 95050
+ },
+ {
+   "gender": "M",
+   "age": 23,
+   "salary": 89000,
+   "zip": 95105
+ },
+ {
+   "gender": "M",
+   "age": 1,
+   "salary": 0,
+   "zip": 95050
+ },
+ {
+   "gender": "F",
+   "age": 4,
+   "salary": 0,
+   "zip": 95103
+ },
+ {
+   "gender": "M",
+   "age": 23,
+   "salary": 64000,
+   "zip": 94041
+ },
+ {
+   "gender": "M",
+   "age": 79,
+   "salary": 15000,
+   "zip": 94040
+ },
+ {
+   "gender": "F",
+   "age": 65,
+   "salary": 70000,
+   "zip": 95102
+ },
+ {
+   "gender": "F",
+   "age": 96,
+   "salary": 9000,
+   "zip": 95102
+ },
+ {
+   "gender": "F",
+   "age": 92,
+   "salary": 56000,
+   "zip": 94041
+ },
+ {
+   "gender": "M",
+   "age": 17,
+   "salary": 0,
+   "zip": 95102
+ },
+ {
+   "gender": "M",
+   "age": 17,
+   "salary": 0,
+   "zip": 95103
+ },
+ {
+   "gender": "F",
+   "age": 17,
+   "salary": 0,
+   "zip": 95050
+ },
+ {
+   "gender": "M",
+   "age": 50,
+   "salary": 18000,
+   "zip": 95102
+ },
+ {
+   "gender": "M",
+   "age": 15,
+   "salary": 0,
+   "zip": 95103
+ },
+ {
+   "gender": "M",
+   "age": 6,
+   "salary": 0,
+   "zip": 95051
+ },
+ {
+   "gender": "F",
+   "age": 3,
+   "salary": 0,
+   "zip": 95050
+ },
+ {
+   "gender": "M",
+   "age": 44,
+   "salary": 96000,
+   "zip": 94040
+ },
+ {
+   "gender": "F",
+   "age": 73,
+   "salary": 12000,
+   "zip": 95102
+ },
+ {
+   "gender": "M",
+   "age": 55,
+   "salary": 32000,
+   "zip": 94040
+ },
+ {
+   "gender": "F",
+   "age": 82,
+   "salary": 10000,
+   "zip": 95102
+ },
+ {
+   "gender": "F",
+   "age": 33,
+   "salary": 29000,
+   "zip": 95050
+ },
+ {
+   "gender": "M",
+   "age": 67,
+   "salary": 81000,
+   "zip": 95101
+ },
+ {
+   "gender": "M",
+   "age": 31,
+   "salary": 95000,
+   "zip": 94041
+ },
+ {
+   "gender": "M",
+   "age": 34,
+   "salary": 61000,
+   "zip": 94040
+ },
+ {
+   "gender": "F",
+   "age": 22,
+   "salary": 90000,
+   "zip": 95102
+ },
+ {
+   "gender": "M",
+   "age": 66,
+   "salary": 84000,
+   "zip": 95103
+ },
+ {
+   "gender": "M",
+   "age": 71,
+   "salary": 0,
+   "zip": 94041
+ },
+ {
+   "gender": "F",
+   "age": 16,
+   "salary": 0,
+   "zip": 95102
+ },
+ {
+   "gender": "F",
+   "age": 97,
+   "salary": 69000,
+   "zip": 95103
+ },
+ {
+   "gender": "M",
+   "age": 48,
+   "salary": 91000,
+   "zip": 95102
+ },
+ {
+   "gender": "F",
+   "age": 1,
+   "salary": 0,
+   "zip": 95102
+ },
+ {
+   "gender": "M",
+   "age": 45,
+   "salary": 48000,
+   "zip": 94041
+ },
+ {
+   "gender": "F",
+   "age": 39,
+   "salary": 3000,
+   "zip": 94040
+ },
+ {
+   "gender": "F",
+   "age": 84,
+   "salary": 14000,
+   "zip": 95051
+ }
+]
